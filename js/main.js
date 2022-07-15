@@ -1,5 +1,5 @@
 // Таймер
-import Timer from "./Timer";
+import {default as Timer} from './Timer.js';
 
 new Timer(
     document.querySelector(".timer")
