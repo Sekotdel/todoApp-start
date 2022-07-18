@@ -5,6 +5,7 @@ export default class Timer {
     this.el = {
         hours: root.querySelector(".timer__part--hours"),
         minutes: root.querySelector(".timer__part--minutes"),
+        seconds: root.querySelector(".timer__part--seconds"),
         control: root.querySelector(".timer__btn--control"),
         reset: root.querySelector(".timer__btn--reset")
     };
